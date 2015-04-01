@@ -1,4 +1,4 @@
-﻿#region Credits
+#region Credits
 
 //  Special Thanks:
 //      xQx - For his Swain, Some of the functions here are from that assembly. 
@@ -95,7 +95,7 @@ namespace The_Mocking_Swain
             Game.PrintChat("The Mocking Swain Loaded!");
             //Nerd Shit
             Config.AddToMainMenu();
-            Game.OnGameUpdate += OnGameUpdate;
+            Game.OnUpdate += OnGameUpdate;
             GameObject.OnCreate += OnCreateObject;
             GameObject.OnDelete += OnDeleteObject;
         }
